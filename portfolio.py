@@ -36,7 +36,7 @@ class Portfolio(object):
         self.stocks.append(stock)
 
     def get_total_invested(self) -> float:
-        return sum(stock.price * stock.qty for stock in self.stocks)
+        return round(sum(stock.price * stock.qty for stock in self.stocks), 2)
 
     def get_profit(self, start_date: str, end_date: str) -> float:
         start_amount: float = self.get_total_invested()
