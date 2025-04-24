@@ -86,3 +86,4 @@ Response
 ```
 
 ### Sample
+![](https://github.com/fierroformo/portfolio-api/blob/main/api_sample.gif)
