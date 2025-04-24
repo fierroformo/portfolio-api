@@ -27,7 +27,9 @@ Open browser and visit [http://localhost:5000](http://localhost:5000)
 ### Add stocks to my Portfolio
 
 POST http://localhost:5000/api/portfolio
+
 Content-Type: application/json
+
 Request:
 ```
 {
@@ -47,7 +49,9 @@ Response
 ### Get stocks from my Portfolio
 
 GET http://localhost:5000/api/portfolio
+
 Content-Type: application/json
+
 Response
 ```
 {
@@ -69,7 +73,9 @@ Response
 ### Get earnings from my Portfolio
 
 GET http://localhost:5000/api/portfolio/earnings?start_date={start_date}&end_date={end_date}
+
 Content-Type: application/json
+
 Response
 ```
 {
