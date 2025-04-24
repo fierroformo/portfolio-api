@@ -1,6 +1,6 @@
-# Technical Review – Fintual Application
+# Technical Review – Portfolio API
 
-This repository contains a simple HTTP API for manage a stocks porfolio
+This repository contains a simple HTTP API for manage a stocks portfolio
 
 ## 🛠️ Tech Stack
 - Language: Python 3.9
